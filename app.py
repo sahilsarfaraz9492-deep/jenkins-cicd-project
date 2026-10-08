@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "return Hello! Jenkins automatically deployed Version 2"
+    return "return Hello! Jenkins automatically deployed Version 3"
 
 @app.route("/health")
 def health():
